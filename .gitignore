@@ -1,0 +1,50 @@
+# Maven / Java build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets - never commit credentials
+.env
+.env.*
+!.env.example
+*.env.local
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Local helper scripts and generated verification output
+backend/*.out.txt
+backend/*.ps1
+backend/*log
+frontend/*.out.txt
+frontend/*.ps1
